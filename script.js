@@ -1,5 +1,5 @@
 document.getElementById('loginButton').addEventListener('click', function () {
-    alert('Login button clicked!');
+    alert('Login Succesfull!');
 });
 
 document.querySelector('.signup').addEventListener('click', function () {
