@@ -8,25 +8,25 @@
 </head>
 <body>
     <div class="container">
-        <h1>Login Page</h1>
+        <h1>Login</h1>
         <form action="" class="form">
-            <label for="userId"><span> Username </span></label>
-            <input type="text" name="username" id="userId">
+            <label for="userId"><span>Username</span></label>
+            <input type="text" name="username" id="userId" required>
 
-            <label for="password"><span> Password </span></label>
-
-            <input type="password" name="username" id="password">
+            <label for="password"><span>Password</span></label>
+            <input type="password" name="password" id="password" required>
         </form>
         <div class="forget">
-            <p>Forget Password?</p>
+            <p>Forgot Password?</p>
         </div>
+        <div class="button1" id="loginButton">
+            <p>Login</p>
+        </div>
+        <div class="last">
+            <p>Not a Member? <span class="signup">Sign Up</span></p>
+        </div>
+    </div>
 
-            <div class="button1">
-                <p>Login</p>
-            </div>
-            <div class="last">
-                <p>Not a Member ? Sign Up</p>
-            </div>
-        </div>
+    <script src="script.js"></script>
 </body>
 </html>
